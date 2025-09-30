@@ -1,9 +1,25 @@
-# assist-robot-jetson
+# Assist-robot-jetson
 
 This repository is a **submodule** of the master project  
 [**intelligent-assistive-robot**](https://github.com/Msanthosh08/intelligent-assistive-robot).  
-It contains all code and files for the **respective** component  
-(e.g., Hardware, Jetson Nano, Vision, or Voice-NLP).
+It contains all code and files for the jetson_nano
+
+## ⚡ Tasks & Responsibilities
+
+This module handles the **high-level computation and integration platform**.
+
+- Install and configure the **Jetson Nano** OS environment with ROS/ROS2.
+- Implement the **navigation stack**:
+  - SLAM mapping (e.g., GMapping or RTAB-Map).
+  - Localization (AMCL).
+  - Path planning (move_base or Nav2).
+- Integrate LiDAR (RPLIDAR A1) and odometry data from hardware for real-time map updates.
+- Create a communication bridge between Jetson Nano and Arduino:
+  - Send velocity commands.
+  - Receive sensor feedback.
+- Manage **system startup scripts**, package dependencies, and deployment instructions.
+- Provide APIs for Vision and Voice modules to send/receive navigation data.
+
 
 ---
 
