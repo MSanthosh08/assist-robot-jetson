@@ -26,13 +26,14 @@ This module handles the **high-level computation and integration platform**.
 ## 🔑 Access Through the Main Repository
 If you already cloned the master repo, you do **not** need to clone this module separately.
 
-1. Clone the master project with all submodules  
+1. Clone the project   
    ```bash
-   git clone --recurse-submodules git@github.com:Msanthosh08/intelligent-assistive-robot.git
-   cd intelligent-assistive-robot 
+   git clone https://github.com/MSanthosh08/assist-robot-jetson_nano.git
+
+
 2. Enter this module folder
    ```bash
-   cd jetson_nano   # e.g., cd hardware (jetson_nano or Vision, or voice-nlp)
+   cd assist-robot-jetson_nano   # e.g., cd hardware (jetson_nano or Vision, or voice-nlp)
 
 3. Work only inside this folder.
 You have write access here but read-only access to other modules.
@@ -59,13 +60,7 @@ You have write access here but read-only access to other modules.
     git add <module-folder>
     git commit -m "Update <module-name> submodule to latest"
     git push
-# or
-# ⚙️ Standalone Clone
 
-1. You can also work on this module directly:
-   ```bash
-   git clone git@github.com:MSanthosh08/assist-robot-jetson_nano.git
-   cd assist-robot-jetson_nano
 2. 📧 Contact
 
 For access issues or merge conflicts, contact Santhosh M 
